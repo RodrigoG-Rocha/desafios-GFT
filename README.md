@@ -92,7 +92,9 @@ class Program
     }
 }
 
-Prompt: Crie uma classe em C# chamada AplicativoMobile para gerenciar um projeto, com as seguintes características:
+Prompt:
+
+Crie uma classe em C# chamada AplicativoMobile para gerenciar um projeto, com as seguintes características:
 
 Atributos:
 Nome do projeto.

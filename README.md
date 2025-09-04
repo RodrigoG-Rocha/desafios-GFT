@@ -1,5 +1,7 @@
 # desafios-GFT
- ----------Itens de Estoque:----------(br)
+ ----------Itens de Estoque:----------
+
+ 
  using System;
 
 class Program
@@ -46,6 +48,7 @@ class ItemEstoque
 
 
 ----------Representar----------
+
 
 using System;
 

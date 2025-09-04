@@ -1,5 +1,5 @@
 # desafios-GFT
- --Itens de Estoque:--  
+ ----------Itens de Estoque:----------
  using System;
 
 class Program

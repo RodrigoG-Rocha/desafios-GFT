@@ -88,3 +88,21 @@ class Program
         cliente.Saudacao();
     }
 }
+
+Prompt: Crie uma classe em C# chamada AplicativoMobile para gerenciar um projeto, com as seguintes características:
+
+Atributos:
+Nome do projeto.
+Orcamento do projeto (ex: 5000.00).
+NumeroMembros da equipe.
+
+Métodos:
+Permitir acessar e modificar os dados do projeto.
+
+Validar que:
+O Orcamento seja positivo.
+O NumeroMembros seja positivo.
+Calcular o orçamento médio por membro (Orcamento / NumeroMembros).
+
+O código deve:
+Incluir comentários explicativos. Seguir boas práticas de POO (encapsulamento, propriedades, métodos claros). O código deve ser funcional e testável.

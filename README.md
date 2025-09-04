@@ -43,3 +43,48 @@ class ItemEstoque
         Console.WriteLine($"Item: {Nome}, Quantidade: {Quantidade}");
     }
 }
+
+
+----------Representar----------
+
+using System;
+
+class Pessoa
+{
+    public string Nome { get; set; }
+
+    public Pessoa(string nome)
+    {
+        Nome = nome;
+    }
+
+    public virtual void Saudacao()
+    {
+        Console.WriteLine($"Olá, sou {Nome}.");
+    }
+}
+
+class Cliente : Pessoa
+{
+    public int NumeroFidelidade { get; set; }
+
+    public Cliente(string nome, int numeroFidelidade) : base(nome)
+    {
+        NumeroFidelidade = numeroFidelidade;
+    }
+
+    public override void Saudacao()
+    {
+        Console.WriteLine($"Olá, sou {Nome}, cliente número {NumeroFidelidade}.");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Cliente cliente = new Cliente("Clara", 1234);
+
+        cliente.Saudacao();
+    }
+}
